@@ -23,14 +23,40 @@
         <img src="header.png"/><br/>
         <form class="contenido">
             <label>Razón Social:</label>
-            <input type="RazonSocial" class="form-control" id="RazonSocial" aria-describedby="emailHelp" placeholder="Nombre de la empresa...">
+            <input type="RazonSocial" class="form-control" id="RazonSocial" placeholder="Nombre de la empresa...">
             <br/>
             Tipo de materiales que provee:<br/>
             <select class="form-control">
-                <option>Default select</option>
+                <option>Insumos Primarios</option>
+                <option>Materiales de producción</option>
+                <option>Materia prima</option>
             </select>
             <br/>
             Dirección:<br/>
+            <table>
+                <tr>
+                    <td>
+                        <label>Calle:</label>
+                        <input type="Calle" class="form-control" id="Calle" placeholder="Calle...">
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <label>C.P.</label>
+                        <input type="CP" class="form-control" id="CP" placeholder="C.P.">
+                    </td>
+                </tr>
+            </table>
+            <br/>Colonia:<br/>
+            <select class="form-control">
+                <option>Elige un codigo postal</option>
+            </select>
+            <br/>
+            <label>Teléfono:</label>
+            <input type="Telefono" class="form-control" id="Telefono" placeholder="Télefono">
+            <br/>
+                       
         </form>
     </div>
 
