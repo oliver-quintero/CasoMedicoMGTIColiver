@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+.titulo {
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight:900;
+    text-align: center;
+}
+.cajita {
+    width: 375px;
+    background-color: #ffffff;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+.contenido {
+    padding: 15px;
+    /* border: 1px solid green;  */
+}    
+</style>
+</head>
+<body>
+    <div class="cajita">
+        <br/>
+        <img src="header.png"/><br/><br/>
+        <table><tr><td class="contenido">
+            <a href="CasoMedicoHome.html">
+                <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+            </a>
+            </td><td><h1 class="titulo">ALTA DE PROVEEDOR</h1></td></tr></table>
+        <form class="contenido">
+            <label>Razón Social:</label>
+            <input type="RazonSocial" class="form-control" id="RazonSocial" placeholder="Nombre de la empresa...">
+            <br/>
+            Tipo de materiales que provee:<br/>
+            <select class="form-control">
+                <option>Insumos Primarios</option>
+                <option>Materiales de producción</option>
+                <option>Materia prima</option>
+            </select>
+            <br/>
+            Dirección:<br/>
+            <table>
+                <tr>
+                    <td>
+                        <label>Calle:</label>
+                        <input type="Calle" class="form-control" id="Calle" placeholder="Calle...">
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <label>C.P.</label>
+                        <input type="CP" class="form-control" id="CP" placeholder="C.P.">
+                    </td>
+                </tr>
+            </table>
+            <br/>Colonia:<br/>
+            <select class="form-control">
+                <option>Elige un codigo postal</option>
+            </select>
+            <br/>
+            <label>Teléfono:</label>
+            <input type="Telefono" class="form-control" id="Telefono" placeholder="Télefono">
+            <br/>Mapa:<br/>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6779.637918431767!2d-116.595589!3d31.8299229!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1634556507198!5m2!1sen!2smx" width="345" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>           
+            <br/><br/>
+            <button type="button" class="btn btn-primary">Limpiar Campos</button>&nbsp;&nbsp;
+            <button type="button" class="btn btn-primary">Agregar Proveedor</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    <script src="https://use.fontawesome.com/ee7ac461a2.js"></script>
+  </body>
+</html>
