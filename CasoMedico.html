@@ -4,6 +4,12 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
+.titulo {
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight:900;
+    text-align: center;
+}
 .cajita {
     width: 375px;
     background-color: #ffffff;
@@ -13,7 +19,7 @@
 }  
 .contenido {
     padding: 15px;
-    border: 1px solid green;  
+    /* border: 1px solid green;  */
 }    
 </style>
 </head>
@@ -21,7 +27,8 @@
 
     <div class="cajita">
         <br/>
-        <img src="header.png"/><br/>
+        <img src="header.png"/><br/><br/>
+        <h1 class="titulo">ALTA DE PROVEEDOR</h1>
         <form class="contenido">
             <label>Razón Social:</label>
             <input type="RazonSocial" class="form-control" id="RazonSocial" placeholder="Nombre de la empresa...">
